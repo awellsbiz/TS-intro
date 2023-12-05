@@ -6,17 +6,17 @@ const calculator = (a:number, b:number, op: Operation): Result => {
     case 'multiply':
         return a * b;
     case 'divide':
-        if ( b === 0) throw new Error('Can\'t divide by 0!')
-        return a / b
+        if ( b === 0) throw new Error('Can\'t divide by 0!');
+        return a / b;
     case 'add':
-        return a + b
+        return a + b;
     default:
-        throw new Error('Operation is not multiply, add, or divide')
+        throw new Error('Operation is not multiply, add, or divide');
    }
 }
 
 //    try {
-//     console.log(calculator( 1, 5, 'subtract'));
+//     console.log(calculator( 1, 0, 'divid'));
 //    } catch (error: unknown) {
 //      {
 //         let errorMessage = 'Something went wrong: '
@@ -26,5 +26,4 @@ const calculator = (a:number, b:number, op: Operation): Result => {
 //         console.log(errorMessage)
 //     }
 //    }
-
-console.log(calculator(4,5,'ad'))
+console.log(process.argv)
