@@ -12,5 +12,9 @@
   "devDependencies": {
     "ts-node": "^10.9.1",
     "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "axios": "^1.6.5",
+    "tsc": "^2.0.4"
   }
 }
