@@ -30,13 +30,18 @@ let point: { x: number; y: number } = {
   y: 20,
 };
 
-//function
+//Function
 
 const logNumber: (i: number) => void = (i: number) => {
   console.log(i);
 };
+// (i:number) => void is annotating the variable itself.
+// This means that it is telling typescript or other developers that
+// this fuction sould perform a side effect or logg the console and not return anything.
+// Its used for type safty- just incase you accidently write a return statement
+//  - it will show an error. Also, code readability
 
-//When to use annotations
+//:::::::When to use annotations::::::::::
 
 // 1.) when we have a function that returns any type
 
