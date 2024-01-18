@@ -7,7 +7,7 @@ const add = (a: number, b: number): number => {
   return a + b;
 };
 
-//always add anotation because TS will not tell yopu if you forget to put a return statement in. like so:
+// always add anotation because TS will not tell yopu if you forget to put a return statement in. like so:
 
 //  const subtract = (a: number, b: number) =>{
 //   a - b

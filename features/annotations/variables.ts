@@ -21,7 +21,7 @@ let truths: boolean[] = [true, false];
 
 class Car {}
 
-let car: Car = new Car();
+let cars: Car = new Car();
 
 //object literal
 
