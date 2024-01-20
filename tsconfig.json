@@ -1,5 +1,7 @@
 {
-    "compilerOptions":{
-        "noImplicitAny": false
-    }
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "moduleResolution": "Node"
+  }
 }
